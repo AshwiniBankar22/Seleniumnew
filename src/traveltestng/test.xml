@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1" verbose="3">
+    <test name="regressin">
+        <classes>
+            <class name="traveltestng.Master"/>
+                <class name="traveltestng.Admin"/>
+         </classes>
+        </test>
+    </suite>

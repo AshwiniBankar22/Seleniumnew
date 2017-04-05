@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.029">
+  <properties />
+  
+  
+            <testcase name="printB1" time="0.025" classname="testng.B" />
+                <testcase name="printB2" time="0.004" classname="testng.B" />
+      
+</testsuite>

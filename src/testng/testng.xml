@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite1" verbose="2" >
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+    </listeners>
+
+    <!--<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>-->
+
+    <test name="a" >
+        <classes>
+            <!--<class name="testng.A"/>
+            <class name="testng.B"/>-->
+            <class name="testng.TryExam"/>
+        </classes>
+    </test>
+</suite>
